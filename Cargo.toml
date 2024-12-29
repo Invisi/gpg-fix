@@ -1,0 +1,8 @@
+[package]
+name = "gpg-fix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wait-timeout = "0.2.0"
+winapi = {version = "0.3.9", features = ["winbase"]}
